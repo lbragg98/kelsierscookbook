@@ -800,6 +800,21 @@ button {
   line-height: 1.1;
 }
 
+@media (max-width: 719px) {
+  .bottom-nav__item {
+    min-height: 60px;
+    padding: 9px 6px;
+  }
+
+  .bottom-nav__label {
+    font-size: 0.62rem;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    text-align: center;
+    text-wrap: balance;
+  }
+}
+
 .bottom-nav__item:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: -2px;

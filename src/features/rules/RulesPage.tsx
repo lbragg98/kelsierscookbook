@@ -1,5 +1,4 @@
 import { collegeOfCuisineFeatures, collegeOfCuisineIntro } from './collegeOfCuisine';
-import RulesDraftScaffold from './RulesDraftScaffold';
 
 export default function RulesPage() {
   return (
@@ -55,7 +54,6 @@ export default function RulesPage() {
         </section>
       ))}
 
-      <RulesDraftScaffold />
     </>
   );
 }
