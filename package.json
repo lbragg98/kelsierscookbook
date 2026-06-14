@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node ./node_modules/typescript/bin/tsc -b && node ./node_modules/vite/bin/vite.js build",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20.19.0"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
