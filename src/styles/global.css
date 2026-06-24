@@ -48,7 +48,8 @@ body {
   background-size: auto, auto, cover, cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body::before,
